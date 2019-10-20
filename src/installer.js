@@ -5,8 +5,6 @@ const tc = require('@actions/tool-cache');
 // Load tempDirectory before it gets wiped by tool-cache
 let tempDirectory = process.env['RUNNER_TEMPDIRECTORY'] || '';
 
-let mockMagePath = 'https://github.com/magefile/mage/releases/download/v1.9.0/mage_1.9.0_Linux-ARM.tar.gz';
-
 if (!tempDirectory) {
   tempDirectory = path.join('/home', 'actions', 'temp');
 }
