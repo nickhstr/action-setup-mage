@@ -1,5 +1,8 @@
 name: 'Setup Mage Action'
 description: 'Downloads and installs the Mage tool'
+branding:
+  icon: sliders
+  color: purple
 inputs:
   version:
     required: true
