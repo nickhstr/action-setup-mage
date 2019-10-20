@@ -1,0 +1,9 @@
+name: 'Setup Mage'
+description: 'Downloads and installs the Mage tool'
+inputs:
+  version:
+    required: true
+    description: 'Version of Mage to install'
+runs:
+  using: 'node12'
+  main: 'index.js'

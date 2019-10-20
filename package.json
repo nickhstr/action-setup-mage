@@ -1,0 +1,17 @@
+{
+  "name": "action-setup-mage",
+  "version": "1.0.0",
+  "description": "GitHub action for setting up Mage.",
+  "keywords": [
+    "actions",
+    "setup",
+    "mage"
+  ],
+  "main": "src/index.js",
+  "author": "Nick Hester",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/tool-cache": "^1.1.2"
+  }
+}
