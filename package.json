@@ -1,6 +1,6 @@
 {
   "name": "action-setup-mage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitHub action for setting up Mage (https://github.com/magefile/mage).",
   "keywords": [
     "actions",
