@@ -8,5 +8,5 @@ inputs:
     required: true
     description: 'Version of Mage to install'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'src/index.js'
